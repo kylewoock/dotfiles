@@ -1,2 +1,2 @@
 * Dotfiles
-My dotfiles for ZSH, Vim, and Spacemacs. Symlink files home directory.
+My dotfiles for ZSH, Vim, and Spacemacs. Symlink files to home directory.
