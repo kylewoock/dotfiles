@@ -49,12 +49,15 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git python pyenv tmux)
 
 # User configuration
 
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+
+# Add brew ahead of everything else in Path
+export PATH="/usr/local/Cellar/emacs-plus/bin:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
